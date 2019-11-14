@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { TextInput, StyleSheet, Text, View, ScrollView } from "react-native";
 import io from "socket.io-client";
 
+// 프론트는 이 파일
 export default class App extends Component {
   constructor(props) {
     super(props);
